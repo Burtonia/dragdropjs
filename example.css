@@ -1,0 +1,15 @@
+/* Example CSS */
+* {transition: all 0.2s linear !important;}
+hidden {display:none !important;}
+.centerize {display:block; margin:0 auto;}
+.ctz-lg {max-width:1440px;}
+.ui-grid {width: 100%; margin: 0 auto; display: block;}
+.ui-beds-header {height:80px; border-bottom: solid 1px #333;}
+.ui-beds {height: 400px; overflow-y:scroll;}
+.ui-bed-wrap {min-height:500px; width:360px; max-width:100%; padding:1rem; background: white; display:inline-block; margin:0 0.5rem 1rem 0; border:solid 3px #333; border-radius:8px; float:left;}
+.ui-bed-wrap .ui-bed {width: 100%; display: block; margin-bottom:1rem; min-height:75px; background: #e8e8e8;}
+.ui-bed-wrap .ui-bed.hovered {background: #d2d2d2;}
+.ui-node {display:block; overflow:overlay; background: white; min-height:75px; border:solid 1px #333;}
+@media screen and (max-width:768px) {
+  .ui-bed {width: 100% !important; max-width: 100% !important;}
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DrapDropJS Example Page</title>
+  <link rel="stylesheet" href="example.css" />
+</head>
+<body>
+
+<!-- Example Board -->
+
+<div id="example-header">
+  <h1>Example DragDropJS Use</h1>
+</div>
+
+<div id="example-board" style="overflow-x:scroll;">
+
+  <div class="centerize ctz-lg px-3 py-5">
+
+    <div id="ui-grid" class="ui-grid" style="width:500%;">
+
+        <!-- UI Bed Wrap: To-Do -->
+        <div id="to-do" class="ui-bed-wrap">
+
+            <div class="ui-beds-header">
+              <h4>To-Do</h4>
+            </div>
+
+            <div class="ui-beds">
+
+                <div class="ui-bed">
+
+                    <div id="tdn1" class="ui-node" draggable="true">
+                      <h4>Test Draggable Node</h4>
+                    </div>
+
+                </div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+            </div>
+
+        </div>
+
+        <!-- UI Bed Wrap: Doing -->
+        <div id="doing" class="ui-bed-wrap">
+
+            <div class="ui-beds-header">
+              <h4>Doing</h4>
+            </div>
+
+            <div class="ui-beds">
+
+                <div class="ui-bed">
+
+                    <div id="tdn2" class="ui-node" draggable="true">
+                      <h4>Test Draggable Node 2</h4>
+                    </div>
+
+                </div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+            </div>
+
+        </div>
+
+        <!-- UI Bed Wrap: Doing -->
+        <div id="qc-review" class="ui-bed-wrap">
+
+            <div class="ui-beds-header">
+              <h4>Quality Review</h4>
+            </div>
+
+            <div class="ui-beds">
+
+                <div class="ui-bed">
+
+                    <div id="tdn3" class="ui-node" draggable="true">
+                      <h4>Test Draggable Node 3</h4>
+                    </div>
+
+                </div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+            </div>
+
+        </div>
+
+        <!-- UI Bed Wrap: Done -->
+        <div id="done" class="ui-bed-wrap">
+
+            <div class="ui-beds-header">
+              <h4>Quality Review</h4>
+            </div>
+
+            <div class="ui-beds">
+
+                <div class="ui-bed">
+
+                    <div id="tdn4" class="ui-node" draggable="true">
+                      <h4>Test Draggable Node 4</h4>
+                    </div>
+
+                </div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+                <div class="ui-bed"></div>
+
+            </div>
+
+        </div>
+
+      </div> <!-- #ui-grid -->
+
+    </div>
+
+</div> <!-- #example-board -->
+
+  <script src="dragdrop.js"></script>
+  <script type="text/javascript">
+    initDragDrop('ui-bed', 'ui-node', 'ui-bed-wrap');
+  </script>
+
+</body>
+</html>
